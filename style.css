@@ -1,0 +1,60 @@
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+/* body {
+  background: #cc919a;
+  background-color: #cc919a 
+} */
+
+body {
+  background-color: #7199ff; 
+}
+
+.section {
+  height: fit-content;
+  padding-left: 12em;
+  padding-right: 12em;
+  padding-bottom: 1em;
+  padding-top:1em;
+  column-gap: 1em;
+}
+  body, p, td, li, div {
+		font-size: 12pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: rgb(234, 255, 72);
+	}
+
+  h1 {
+    padding-top: 1em;
+    padding-left: 8em;
+    padding-right: 12em;
+    padding-bottom: 1em;
+    column-gap: 1em;
+  }
+
+	h1,h2,h3,h4,h5,h6 {
+		color: rgb(234, 255, 72)!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+  
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 18pt !important;  }
+	h2 { font-size: 15pt !important; }
+	h3 { font-size: 13pt !important; }
+	h4 { font-size: 12pt !important; font-variant: small-caps; }
+
+
+	/* SECTION: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
